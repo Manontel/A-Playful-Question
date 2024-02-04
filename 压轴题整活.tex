@@ -1,0 +1,54 @@
+\documentclass{ctexart}
+\usepackage{amsmath}
+\usepackage[hmargin=1.25in,vmargin=1in]{geometry}
+
+\begin{document}
+
+\pagestyle{empty}
+
+19.\quad(17分)复数的引入在数学发展史上具有重要的意义。
+
+(1)已知对任意以实数为变量的函数$f(x)$，有$f(x)=\sum_{n = 0}^{\infty} \frac{f^{(n)}(x)}{n!}x^n$，其中$f^{(n)}(x)$表示$f(x)$的$n$阶导函数。
+$n!=1\times 2\times \cdots \times n$。
+
+试证：$e^{\rm{i}\theta}=\rm{cos}(\theta)+\rm{isin}(\theta)$；(5分)
+
+~\\
+
+(2)定义新运算“$\oplus $”和“$\oplus _a^b$”，如果$F(x)$的导函数为$f(x)$，那么$F(x)=\oplus f(x)$；$\oplus _a^bf(x)=F(b)-F(a)$。
+
+对于自变量为实数的函数，我们可以将其自变量替换为复数。已知对有些函数，我们可以对替换后的函数做$\oplus _a^b$运算，其中$a$、$b$为复数，且
+满足$\oplus _a^bf(z)+\oplus _b^cf(z)=\oplus _a^cf(z)$。我们称这样的函数为“好函数”。我们接下来研究的函数都为“好函数”。
+利用$\oplus _a^bf(z)+\oplus _b^cf(z)=\oplus _a^cf(z)$，我们可以将$\oplus _a^af(z)$分解为沿一个围道进行多次操作的结果。若无论如何
+选取围道，$\oplus _a^af(z)$恒等于0，则称$f(z)$为“纯函数”。否则称$f(z)$为“非纯函数”。
+
+试证：若非纯函数$f(z)$满足$f(z)=\sum_{n = -\infty}^{\infty} c_n(z-a)^n$，则若计算$\oplus _a^af(z)$时所选取的围道中仅包含$a$一个使$f(z)$无意义的点，
+则$\oplus _a^af(z)=2\pi \rm{i}c_{-1}$；(8分)
+
+~\\
+
+(3)已知若计算$\oplus _a^af(z)$时所选取的围道中包含多个无意义的点，则其值等于所有计算时选取的围道仅包含一个不同的无意义点所得$\oplus _a^af(z)$的和。
+
+试求：$\oplus _0^{2\pi}\frac{1}{1+\rm{sin}^2\it{(x)}}$；(4分)
+
+~\\
+~\\
+~\\
+
+个人感觉算是把目前流行的出题的要素全糅合进去了，基本包括：较高的数学背景；有现成的符号不用，偏好定义新运算；偏好给已经有名称的东西命名；上一问所证为求解下一问的引理；
+最后一问思维跨度大。
+
+放过孩子们吧。
+
+\hfill\it{by}\rm{食司}
+
+\hfill\zhtoday
+
+
+
+
+
+
+
+
+\end{document}
